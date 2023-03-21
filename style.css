@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #919191;
+  border-radius: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header,
+h1,
+section h2,
+section h3,
+form button,
+.central {
+  font-family: "Bungee", cursive;
+  font-weight: normal;
+}
+
+body {
+  background: #f8f7ff;
+}
+
+body,
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 5px 0;
+  background-color: #010012;
+  color: #ecf0f1;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 80px;
+  font-size: 16px;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+/* section {
+  padding: 24px 0;
+} */
+
+#inicial {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.central {
+  height: 650px;
+  width: 1930px;
+  opacity: 100%;
+}
+
+.central img {
+  height: 100%;
+  width: 1523px;
+  opacity: 50%;
+}
+
+.titulo1 {
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  transition: translate(-50%, -50%);
+  background: #010012;
+  color: #fff;
+  font-size: 50px;
+  border-radius: 100px;
+  padding: 10px 60px;
+  cursor: context-menu;
+}
+
+.titulo2 {
+  position: fixed;
+  top: 645px;
+  left: 1405px;
+}
+
+.titulo2 a {
+  text-decoration: none;
+  background: #010012;
+  color: #fff;
+  border-radius: 100px;
+  padding: 1px 30px;
+}
+
+.titulo2 a:hover {
+  background: #23224a;
+}
+
+section .container #games {
+  background: #010012;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 1px 100px;
+  margin-left: 511px;
+  margin-top: 100px;
+}
+
+.articles img {
+  height: 400px;
+}
+
+article img {
+  width: 90%;
+}
+
+.articles #art {
+  margin-top: 50px;
+  display: flex;
+}
+
+#secon {
+  color: #000;
+  background-color: transparent;
+  font-size: small;
+  font-weight: normal;
+}
+
+.articles {
+  margin-left: 55px;
+  justify-content: space-between;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.articles a {
+  text-decoration: none;
+}
+
+section .container #sobre {
+  background: #010012;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 1px 100px;
+  margin-left: 480px;
+  margin-top: 100px;
+}
+
+.store img {
+  height: 600px;
+}
+
+.store {
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.store p {
+  color: #11041b;
+  margin-left: -180px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.store div img {
+  margin-top: 60px;
+  margin-left: 180px;
+  height: 25px;
+}
+
+#contact img {
+  height: 30px;
+}
+
+section .container #con {
+  background: #010012;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 1px 100px;
+  margin-left: 513px;
+  margin-top: 100px;
+}
+/*  */
+
+.store-front {
+  margin-right: 32px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.metodo-contato {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+from textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 9px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+  width: 320px;
+}
+
+section h3 {
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: #010012;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #23224a;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #010012;
+}
+
+footer {
+  background-color: #010012;
+  color: #ecf0f1;
+  padding: 16px 0;
+  margin-top: 100px;
+}
+
+footer nav li {
+  display: inline;
+  margin-left: 5px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer nav {
+  margin-top: -20px;
+  margin-left: 558px;
+}
